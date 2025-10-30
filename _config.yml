@@ -22,6 +22,7 @@ github_username: open-coding-society
 github_repo: "pages" 
 baseurl: "" 
 future: true
+url: "https://cspscratchers.github.io/ScratchersOpencsPages"
 
 
 # Build settings

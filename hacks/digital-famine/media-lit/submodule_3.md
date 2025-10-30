@@ -24,6 +24,18 @@ body {
 # Truth Scanner
 ### Alien Attacks
 
+<div class="intro-text">
+As the invasion intensifies, the aliens have shifted tactics. They’re no longer attacking with lasers, they’re attacking with lies. Distorted transmissions are flooding human news networks, spreading confusion and chaos. Your mission: operate the Truth Scanner to protect the planet from misinformation.
+
+Each signal that appears is disguised as a news headline. Some are real and straight from trusted Earth sources like CNN, BBC, or Reuters. Others are fabricated distortions broadcast by the alien disinformation network.
+
+Your job is to analyze each transmission and decide:
+- Is it True: a verified human report?
+- Or False: an alien-generated fake?
+
+Every correct answer strengthens Earth’s media defense shield. Each mistake weakens it. Stay sharp — the aliens are adapting, and their fakes will grow more convincing as the game progresses.
+</div>
+
 <style>
   .game-container {
     background: linear-gradient(135deg, #353e74ff, #9384d5ff);
@@ -39,7 +51,15 @@ body {
     margin: 28px auto;
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
   }
-
+  .intro-text {
+  background: rgba(0,0,30,0.85);
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Courier New', monospace;
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
   h1 {
     margin-bottom: 1rem;
     font-weight: 700;
@@ -401,9 +421,9 @@ body {
         showCongrats();
         return;
       }
-      showFeedback("Correct!", true);
+      showFeedback("Signal verified: truth detected.", true);
     } else {
-      showFeedback("Incorrect", false);
+      showFeedback("Alert: false signal detected!", false);
     }
     document.getElementById("score").textContent = score;
     postScore("Player", score);
