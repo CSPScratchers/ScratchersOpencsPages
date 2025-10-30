@@ -25,15 +25,21 @@ body {
 ### Alien Attacks
 
 <div class="intro-text">
-As the invasion intensifies, the aliens have shifted tactics. They’re no longer attacking with lasers, they’re attacking with lies. Distorted transmissions are flooding human news networks, spreading confusion and chaos. Your mission: operate the Truth Scanner to protect the planet from misinformation.
+  As the invasion intensifies, the aliens have shifted tactics. They’re no longer attacking with lasers, they’re attacking with lies. Distorted transmissions are flooding human news networks, spreading confusion and chaos. Your mission: operate the Truth Scanner to protect the planet from misinformation.
 
-Each signal that appears is disguised as a news headline. Some are real and straight from trusted Earth sources like CNN, BBC, or Reuters. Others are fabricated distortions broadcast by the alien disinformation network.
+  <br><br>
 
-Your job is to analyze each transmission and decide:
-- Is it True: a verified human report?
-- Or False: an alien-generated fake?
+  Each signal that appears is disguised as a news headline. Some are real and straight from trusted Earth sources like CNN, BBC, or Reuters. Others are fabricated distortions broadcast by the alien disinformation network.
 
-Every correct answer strengthens Earth’s media defense shield. Each mistake weakens it. Stay sharp — the aliens are adapting, and their fakes will grow more convincing as the game progresses.
+  <br><br>
+
+  Your job is to analyze each transmission and decide:
+  <ul>
+    <li><strong>True:</strong> a verified human report</li>
+    <li><strong>False:</strong> an alien-generated fake</li>
+  </ul>
+
+  Every correct answer strengthens Earth’s media defense shield. Each mistake weakens it. Stay sharp — the aliens are adapting, and their fakes will grow more convincing as the game progresses.
 </div>
 
 <style>
@@ -55,7 +61,7 @@ Every correct answer strengthens Earth’s media defense shield. Each mistake we
   background: rgba(0,0,30,0.85);
   padding: 20px;
   border-radius: 12px;
-  font-family: 'Courier New', monospace;
+  font-family: "Inter", system-ui, sans-serif;
   font-size: 1.05rem;
   margin-bottom: 20px;
   line-height: 1.5;
