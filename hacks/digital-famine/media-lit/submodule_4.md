@@ -19,27 +19,71 @@ body {
   background: url('{{ site.baseurl }}/hacks/digital-famine/media-lit/media/assets/spacebackground.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: #061226; /* fallback */
+  font-family: "Inter", system-ui, sans-serif;
+  color: #f5f7ff;
+}
+
+.mission-container {
+  max-width: 750px;
+  background: rgba(26, 28, 66, 0.75);
+  border-radius: 20px;
+  padding: 32px 40px;
+  margin: 60px auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+  line-height: 1.7;
+}
+
+.mission-container h1 {
+  color: #aeb9ff;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.mission-container h3 {
+  color: #d2d7ff;
+  margin-top: 1.6rem;
+}
+
+.mission-container ul {
+  margin-left: 1.5rem;
+}
+
+.mission-container strong {
+  color: #ffffff;
 }
 </style>
 
-# Bias Sort
-### Wording can be Misleading
-During an alien invasion, confusion spreads fast. One broadcast says the invaders are “approaching peacefully,” while another claims they’re “advancing on our cities.” Same event, but totally different emotions. The way words are chosen can make something sound safe or threatening, fair or biased. In moments of crisis, wording can mislead us just as easily as alien trickery. Learning to spot charged or slanted language helps us see past the panic and focus on the truth.
+<div class="mission-container">
+  <h1>Bias Sort</h1>
+  <h3>Wording can be Misleading</h3>
 
-### Transmission from Media Literacy Command:
-Planet Media Literacy's communication grid has been hacked by alien misinformation drones. They’re spreading biased headlines to confuse humans and weaken your defenses.
-**Your mission**: analyze incoming headlines and separate reliable transmissions from corrupted ones before misinformation spreads across the galaxy.
+  <p>
+    During an alien invasion, confusion spreads fast. One broadcast says the invaders are “approaching peacefully,” while another claims they’re “advancing on our cities.” Same event, but totally different emotions. The way words are chosen can make something sound safe or threatening, fair or biased. In moments of crisis, wording can mislead us just as easily as alien trickery. Learning to spot charged or slanted language helps us see past the panic and focus on the truth.
+  </p>
 
-### Mission Briefing
-- Read each incoming headline on your dashboard.
-- Decide if the transmission sounds balanced and factual or biased and manipulative.
-- Drag or beam each headline into the correct containment zone on the right:
+  <h3>Transmission from Media Literacy Command:</h3>
+  <p>
+    Planet Media Literacy's communication grid has been hacked by alien misinformation drones. They’re spreading biased headlines to confuse humans and weaken your defenses.
+    <strong>Your mission</strong>: analyze incoming headlines and separate reliable transmissions from corrupted ones before misinformation spreads across the galaxy.
+  </p>
 
-    - 🟦 Balanced / Accurate - verified signals from trusted sources.
+  <h3>Mission Briefing</h3>
+  <ul>
+    <li>Read each incoming headline on your dashboard.</li>
+    <li>Decide if the transmission sounds balanced and factual or biased and manipulative.</li>
+    <li>Drag or beam each headline into the correct containment zone on the right:</li>
+  </ul>
 
-    - 🔴 Biased / Misleading - corrupted broadcasts from alien bots.
+  <ul>
+    <li>🟦 <strong>Balanced / Accurate</strong> – verified signals from trusted sources.</li>
+    <li>🔴 <strong>Biased / Misleading</strong> – corrupted broadcasts from alien bots.</li>
+  </ul>
 
-Complete your analysis to secure the communication line and see your mission score.
+  <p>
+    Complete your analysis to secure the communication line and see your mission score.
+  </p>
+</div>
 
 
 <div class="game-card-wrapper">
