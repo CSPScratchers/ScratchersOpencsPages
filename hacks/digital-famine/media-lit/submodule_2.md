@@ -86,7 +86,7 @@ body {
   </p>
 </div>
 
-<style>}
+<style>
 .game-container {
     background: linear-gradient(135deg, #353e74ff, #9384d5ff);
     border-radius: 15px;
