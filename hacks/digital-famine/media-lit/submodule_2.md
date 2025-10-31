@@ -11,26 +11,82 @@ tags: [analytics, submodule, curators]
 author: "Anwita Bandaru and Nick Diaz"
 date: 2025-10-21
 ---
-
-# Bias Detector
-
-### Why is checking for bias Important?
-The alien misinformation swarm doesn’t invade with lasers or ships — it attacks minds.
-Every distorted headline, every emotional post, every half-true story is a signal designed to scramble human judgment. Once people can’t tell what’s real, they stop trusting reliable information. Biased language can make ordinary events sound urgent or frightening, pushing people to react before they think. When that happens, truth fades and manipulation spreads.
---- 
-
-**By identifying bias, you decode the signal. You learn to notice when words are chosen to provoke rather than inform.**
-
-## Media Bias Training 
-Before you recieve your mission to protect Media Literacy Planet, you'll need to undergo training. Test your knowledge of media bias by sorting news outlets into their typical editorial positions. This training will help you understand the different biases present in major news sources to defeat the invaders. 
-
 <style>
 body {
   min-height: 100vh;
   background: url('{{ site.baseurl }}/hacks/digital-famine/media-lit/media/assets/spacebackground.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: #061226; /* fallback */
+  font-family: "Inter", system-ui, sans-serif;
+  color: #f5f7ff;
 }
+
+.detector-container {
+  max-width: 750px;
+  background: rgba(26, 28, 66, 0.75);
+  border-radius: 20px;
+  padding: 32px 40px;
+  margin: 60px auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+  line-height: 1.7;
+}
+
+.detector-container h1 {
+  color: #aeb9ff;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.detector-container h3 {
+  color: #d2d7ff;
+  margin-top: 1.6rem;
+}
+
+.detector-container p {
+  margin-bottom: 1.2rem;
+}
+
+.detector-container strong {
+  color: #ffffff;
+}
+
+.detector-container hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin: 1.8rem 0;
+}
+</style>
+
+<div class="detector-container">
+  <h1>Bias Detector</h1>
+  <h3>Why is Checking for Bias Important?</h3>
+
+  <p>
+    The alien misinformation swarm doesn’t invade with lasers or ships — it attacks minds.
+    Every distorted headline, every emotional post, every half-true story is a signal designed to scramble human judgment.
+    Once people can’t tell what’s real, they stop trusting reliable information. 
+    Biased language can make ordinary events sound urgent or frightening, pushing people to react before they think.
+    When that happens, truth fades and manipulation spreads.
+  </p>
+
+  <hr>
+
+  <p>
+    <strong>By identifying bias, you decode the signal.</strong> 
+    You learn to notice when words are chosen to provoke rather than inform.
+  </p>
+
+  <h3>Media Bias Training</h3>
+  <p>
+    Before you receive your mission to protect Planet Media Literacy, you’ll need to undergo training.
+    Test your knowledge of media bias by sorting news outlets into their typical editorial positions.
+    This training will help you understand the different biases present in major news sources — 
+    and prepare you to neutralize misinformation before it spreads across the galaxy.
+  </p>
+</div>
+
+<style>}
 .game-container {
     background: linear-gradient(135deg, #353e74ff, #9384d5ff);
     border-radius: 15px;

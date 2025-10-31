@@ -21,7 +21,8 @@ body {
 }
 </style>
 
-# Truth Scanner
+### Truth Scanner
+
 ### Alien Attacks
 
 <div class="intro-text">
